@@ -10,11 +10,11 @@ namespace VPPractice
     {
         private string name; //Variables
         private string breed;
-        private int dogLevelHunver;
+        private int dogLevelHunger;
         private int dogLevelThirst;
         private int dogLevelBoredom;
 
-        public string Name { get; set; } //Properties to set variables for VPDog class
+        public string Name { get; set; } //Properties for VPDog class
         public string Breed { get; set; }
 
         public int DogLevelHunger { get; set; }  //Properties to set levels for dog status
