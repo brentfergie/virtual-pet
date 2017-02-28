@@ -8,7 +8,7 @@ namespace VPPractice
 {
     class VPDog
     {
-        private string name; //Variables
+        private string name;  //Variables for VPDog class
         private string breed;
         private int dogLevelHunger;
         private int dogLevelThirst;

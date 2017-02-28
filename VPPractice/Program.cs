@@ -12,9 +12,13 @@ namespace VPPractice
         {
             string userResult = "0";
 
-            VPDog myDog = new VPDog();  
+            VPDog myDog = new VPDog();     //ascii art for beginning of program display
+            Console.WriteLine(@"......//^ ^\\");
+            Console.WriteLine(@"......(/(_•_)\)");
+            Console.WriteLine(@"......_/''*''\_");
+            Console.WriteLine(@".....(,,,)^(,,,)");
 
-            Console.WriteLine("Enter dog name"); // User name's dog and breed.  Only appears at beginning
+            Console.WriteLine("\nEnter dog name"); // User name's dog and breed.  Only appears at beginning
             myDog.Name = Console.ReadLine();
 
             Console.WriteLine("Enter dog breed");
