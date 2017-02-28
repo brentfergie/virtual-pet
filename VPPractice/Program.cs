@@ -15,16 +15,16 @@ namespace VPPractice
             VPDog myDog = new VPDog();  
 
             Console.WriteLine("Enter dog name"); // User name's dog and breed.  Only appears at beginning
-            myDog.name = Console.ReadLine();
+            myDog.Name = Console.ReadLine();
 
             Console.WriteLine("Enter dog breed");
-            myDog.breed = Console.ReadLine();
+            myDog.Breed = Console.ReadLine();
 
-            Console.WriteLine("Your dog's name is {0} and its breed is a {1}.", myDog.name, myDog.breed);
-            Console.WriteLine("Let's check {0}'s stats.", myDog.name);
+            Console.WriteLine("Your dog's name is {0} and its breed is a {1}.", myDog.Name, myDog.Breed);
+            Console.WriteLine("Let's check {0}'s stats.", myDog.Name);
 
 
-            Console.WriteLine("{0} likes his hunger, thirst, and boredom numbers to be below 5.", myDog.name);
+            Console.WriteLine("{0} likes his hunger, thirst, and boredom numbers to be below 5.", myDog.Name);
 
             while (userResult != "4") //Main console display for user to enter options
             {
